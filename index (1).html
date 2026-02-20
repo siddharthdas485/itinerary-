@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Incredible India Tours | Discover India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Plan your dream trip to India. Heritage, beaches, mountains, wildlife and festivals – curated tours across Incredible India." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <div class="logo-icon">IN</div>
+        <span>Incredible India Tours</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#video">Film</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <button class="nav-cta" onclick="scrollToSection('contact')">Plan My Trip</button>
+      </nav>
+
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="hero-media-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1548013146-72479768bada"
+          alt="Sunrise at the Taj Mahal in India"
+          class="hero-bg-img"
+        />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <div>
+            <div class="badge">
+              <span class="badge-dot"></span>
+              Authentic, tailor-made holidays across India
+            </div>
+            <h1 class="hero-title">
+              Discover the colors of <span class="highlight">Incredible India</span>
+            </h1>
+            <p class="hero-text">
+              Palaces, backwaters, mountains, jungles and festivals – our local
+              experts design immersive journeys that reveal the real India, not just
+              the tourist trail.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn-primary" onclick="scrollToSection('contact')">Get a custom itinerary →</button>
+              <button class="btn-outline" onclick="scrollToSection('video')">▶ Watch our India travel film</button>
+            </div>
+
+            <div class="hero-meta">
+              <div>
+                <strong>5000+ happy travelers</strong>
+                From 20+ countries worldwide
+              </div>
+              <div>
+                <strong>15+ years on the road</strong>
+                Trusted local network & guides
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right-card">
+            <h3 style="font-size:1.1rem;margin-bottom:0.4rem;">India Highlights – 10 Days</h3>
+            <p style="font-size:0.85rem;color:#94a3b8;margin-bottom:0.4rem;">
+              Delhi • Agra • Jaipur • Udaipur – a perfect first journey through
+              North India with heritage hotels, sunrise at the Taj and curated experiences.
+            </p>
+
+            <div class="hero-mini-grid">
+              <div class="hero-mini-img">
+                <img src="https://images.pexels.com/photos/356830/pexels-photo-356830.jpeg" alt="Taj Mahal in Agra, India" />
+              </div>
+              <div class="hero-mini-img">
+                <img src="https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg" alt="Palace in Jaipur, Rajasthan, India" />
+              </div>
+              <div class="hero-mini-img">
+                <img src="https://images.pexels.com/photos/3927841/pexels-photo-3927841.jpeg" alt="Kerala backwaters houseboat, India" />
+              </div>
+              <div class="hero-mini-img">
+                <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Himalayan mountains in India" />
+              </div>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>From ₹48,000</strong>
+                per person (land only)
+              </div>
+              <div>
+                <strong>Daily departures</strong>
+                Fully customizable routes
+              </div>
+            </div>
+
+            <div class="play-pill" onclick="scrollToSection('video')">
+              <div class="play-circle">▶</div>
+              <span>2-minute teaser: "Incredible India Stories"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destinations">
+      <div class="section-inner">
+        <h2 class="section-title">Top Regions to Explore</h2>
+        <p class="section-subtitle">
+          Give your guests a visual taste of where they can travel. These image
+          cards can be linked to detailed itineraries or PDFs for each region.
+        </p>
+
+        <div class="pill-row">
+          <div class="pill">Heritage & Culture</div>
+          <div class="pill">Backwaters</div>
+          <div class="pill">Beaches</div>
+          <div class="pill">Himalayas</div>
+          <div class="pill">Wildlife</div>
+          <div class="pill">Ayurveda & Wellness</div>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <img
+              src="https://www.elefantastic.in/uploads/jaipur_1734692769.webp"
+              alt="Amber Fort in Jaipur, Rajasthan, India"
+              class="card-bg"
+            />
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-tag">North India</div>
+                <h3 class="card-title">Delhi • Agra • Jaipur – Golden Triangle</h3>
+                <p class="card-text">
+                  Iconic monuments, bazaars, forts and food trails – ideal for
+                  first-time visitors wanting a rich culture fix.
+                </p>
+              </div>
+              <div class="card-meta">
+                <span>4–7 days • All year</span>
+                <strong>From ₹18,500</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://dwq3yv87q1b43.cloudfront.net/public/blogs/fit-in/1200x675/Blog_20241010-942624340-1728560023.jpg"
+              alt="Houseboat in Kerala backwaters, India"
+              class="card-bg"
+            />
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-tag">South India</div>
+                <h3 class="card-title">Kerala Backwaters & Tea Hills</h3>
+                <p class="card-text">
+                  Houseboat cruises, spice plantations and Ayurveda stays between
+                  Kochi, Munnar and Alleppey.
+                </p>
+              </div>
+              <div class="card-meta">
+                <span>6–9 days • Oct–Mar</span>
+                <strong>From ₹26,000</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"
+              alt="Himalayan landscape with monastery in India"
+              class="card-bg"
+            />
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <div>
+                <div class="card-tag">Himalayas</div>
+                <h3 class="card-title">Himalayan Retreats & Spiritual Trails</h3>
+                <p class="card-text">
+                  Rishikesh, Dharamshala, Ladakh & beyond – yoga retreats, treks
+                  and monasteries with breathtaking views.
+                </p>
+              </div>
+              <div class="card-meta">
+                <span>5–10 days • Mar–Jun</span>
+                <strong>From ₹22,000</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="section-inner">
+        <h2 class="section-title">India in Frames</h2>
+        <p class="section-subtitle">
+          Use real photos from your tours – guests, festivals, wildlife, food and
+          landscapes. This section builds emotion and trust.
+        </p>
+
+        <div class="gallery-grid">
+          <div class="gallery-main">
+            <img
+              src="https://www.earthtrekkers.com/wp-content/uploads/2017/01/Temple-Art.jpg.optimal.jpg"
+              alt="Ganges ghats in Varanasi, India"
+              id="mainGalleryImage"
+            />
+          </div>
+
+          <div class="gallery-side">
+            <div class="gallery-thumb" onclick="swapGalleryImage('https://images.pexels.com/photos/2090651/pexels-photo-2090651.jpeg')">
+              <img src="https://images.pexels.com/photos/2090651/pexels-photo-2090651.jpeg" alt="Tea plantations in Munnar, Kerala, India" />
+              <div class="gallery-label">Tea Hills of Munnar</div>
+            </div>
+
+            <div class="gallery-thumb" onclick="swapGalleryImage('https://images.pexels.com/photos/965157/pexels-photo-965157.jpeg')">
+              <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/11/f4/87/c4.jpg" alt="Camel safari in Thar Desert, Rajasthan, India" />
+              <div class="gallery-label">Thar Desert, Rajasthan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="video-section">
+      <div class="section-inner video-grid">
+        <div>
+          <h2 class="section-title">Watch Our India Travel Film</h2>
+          <p class="section-subtitle">
+            Two minutes of pure wanderlust – show your guests the energy, colors
+            and emotions of India through a short cinematic video. Replace the
+            YouTube link with your own teaser or corporate film.
+          </p>
+
+          <ul style="font-size:0.9rem;color:#94a3b8;margin-left:1.1rem;">
+            <li>Perfect for presentations, social media and your office TV.</li>
+            <li>Can showcase guest experiences, your team and key destinations.</li>
+            <li>Add subtitles for international travelers.</li>
+          </ul>
+
+          <p class="video-note">
+            Tip: Host the video on YouTube or Vimeo for fast loading, then embed it here.
+          </p>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe
+            src="indian tourism2.mp4"
+            title="Incredible India travel film"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="section-inner testimonials-grid">
+        <div>
+          <h2 class="section-title">Our Guests Speak</h2>
+          <p class="section-subtitle">
+            Add reviews from international and Indian travelers – social proof
+            increases enquiries and conversions.
+          </p>
+
+          <div class="quote-card">
+            <p class="quote-text">
+              "Our trip across North and South India was even better than we
+              imagined. The guides were warm, knowledgeable and flexible. We loved
+              the mix of must-see highlights and hidden local spots."
+            </p>
+            <div class="quote-author">Emma & David</div>
+            <div class="quote-meta">UK travelers • 14-day India highlights</div>
+            <div class="rating">★★★★★ Rated 4.9/5 on TripAdvisor</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="stats-row">
+            <div class="stat-chip">✔ Customizable itineraries</div>
+            <div class="stat-chip">✔ 24/7 on-trip support</div>
+            <div class="stat-chip">✔ Local licensed guides</div>
+            <div class="stat-chip">✔ Family & group friendly</div>
+            <div class="stat-chip">✔ MICE & corporate events</div>
+            <div class="stat-chip">✔ Destination weddings</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-inner contact-grid">
+        <div class="contact-card">
+          <h3>Start Planning Your Indian Holiday</h3>
+          <p>
+            Share a few details and our travel specialist will respond with ideas,
+            pricing and a fully customized itinerary within 24 hours.
+          </p>
+
+          <form onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">WhatsApp / Phone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="travelMonth">Planned Travel Month</label>
+                <select id="travelMonth" name="travelMonth">
+                  <option value="">Select</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="travelers">No. of Travelers</label>
+                <input type="text" id="travelers" name="travelers" placeholder="e.g. 2 adults, 1 child" />
+              </div>
+              <div class="form-group">
+                <label for="budget">Approx. Budget (per person)</label>
+                <input type="text" id="budget" name="budget" placeholder="e.g. ₹30,000 / $600" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Where in India would you like to go?</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell us your interests – Rajasthan, Kerala, Goa, Himalayas, wildlife, culture, food, etc."
+              ></textarea>
+            </div>
+
+            <button class="btn-primary" type="submit">Send enquiry</button>
+          </form>
+        </div>
+
+        <div class="contact-details">
+          <strong>Talk to a travel specialist</strong>
+          <span>Email: hello@incredibleindiatours.com</span>
+          <span>Phone / WhatsApp: +91-98765-43210</span>
+          <span>Office: New Delhi & Kochi, India</span>
+
+          <div class="contact-pill">
+            💬 Prefer WhatsApp? Mention it in your message and we'll reply there.
+          </div>
+
+          <p style="margin-top:1.2rem;color:#94a3b8;">
+            Business partners: We also handle MICE, corporate offsites and
+            destination weddings across India.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Incredible India Tours. Crafted with love in India.
+  </footer>
+
+</div>
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("navLinks");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+
+  function scrollToSection(id) {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  function swapGalleryImage(src) {
+    const mainImg = document.getElementById("mainGalleryImage");
+    if (mainImg) {
+      mainImg.src = src;
+    }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("Thank you for your enquiry! Our travel specialist will get back to you within 24 hours.");
+    event.target.reset();
+  }
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
